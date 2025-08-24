@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface GetClientCase {
 
-    public List<Client> execute(Client client);
+    public List<Client> execute();
 }
