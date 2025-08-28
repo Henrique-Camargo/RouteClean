@@ -7,7 +7,7 @@ import java.util.List;
 public class GetClientCaseImpl implements GetClientCase {
 
     @Override
-    public List<Client> execute(Client client) {
+    public List<Client> execute() {
         return List.of();
     }
 }
